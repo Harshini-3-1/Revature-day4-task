@@ -1,0 +1,8 @@
+const str = "Hello, World!";
+const substr = "Hello";
+
+if (str.startsWith(substr)) {
+  console.log(`The string starts with "${substr}"`);
+} else {
+  console.log(`The string does not start with "${substr}"`);
+}
