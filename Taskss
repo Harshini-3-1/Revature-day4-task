@@ -1,0 +1,39 @@
+// 3. Print the location of "my" in a string
+const str1 = "I am enjoying my training";
+console.log(str1.indexOf("my"));
+
+// 4. Print the location of "m" in a string
+console.log(str1.indexOf("m"));
+
+// 5. Extract the complete string from index 3
+const extracted1 = str1.slice(3);
+console.log(extracted1);
+
+// 6. Extract string from index 0 to 4
+const extracted2 = str1.slice(0, 5);
+console.log(extracted2);
+
+// 7. Replace "training" with "journey"
+const replaced = str1.replace("training", "journey");
+console.log(replaced);
+
+// 8. Print all characters of a string using a for loop
+for (let i = 0; i < str1.length; i++) {
+  console.log(str1.charAt(i));
+}
+
+// 9. Store string "a,b,c" into an array
+const str2 = "a,b,c";
+const array = str2.split(",");
+console.log(array);
+
+// 10. Remove white spaces from the string
+const str3 = " abc ";
+const trimmed = str3.trim();
+console.log(trimmed);
+
+// 11. Add two strings using the concat() function
+const str4 = "Hello";
+const str5 = "World";
+const concatenated = str4.concat(" ", str5);
+console.log(concatenated);
