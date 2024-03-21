@@ -1,0 +1,3 @@
+const str = "Hello there I am jack";
+const arr = str.split(" ");
+console.log(arr);
