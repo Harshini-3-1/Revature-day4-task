@@ -1,0 +1,3 @@
+const str = "abcedgedcve";
+const newStr = str.replace(/e/g, "");
+console.log(newStr);
